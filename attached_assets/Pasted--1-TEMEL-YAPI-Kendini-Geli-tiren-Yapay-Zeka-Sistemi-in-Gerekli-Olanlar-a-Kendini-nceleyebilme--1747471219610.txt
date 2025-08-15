@@ -1,0 +1,124 @@
+1. TEMEL YAPI: Kendini Geliştiren Yapay Zeka Sistemi İçin Gerekli Olanlar
+a. Kendini İnceleyebilme Yeteneği (Self-Awareness / Self-Evaluation)
+Model kendi performansını ölçmeli, hatalarını analiz etmeli ve geliştirilmesi gereken alanları belirlemelidir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Senin gibi çalışan bir yapay zekanın kendi performansını nasıl değerlendireceğini tasarla. Hangi metrikleri kullanmalı, hangi durumlarda kendini sorgulamalı? Örnek bir değerlendirme protokolü öner.
+b. Otomatik Geri Bildirim Mekanizması (Feedback Loop)
+Kullanıcıdan veya çevresinden aldığı verilerle sürekli öğrenmeli ve kendisini güncellemelidir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Bir yapay zeka sisteminde kullanıcı geri bildirimlerini otomatik olarak nasıl işleyip kendini geliştirmeye dönüştürebiliriz? Bir algoritma akış diyagramı çıkararak açıkla.
+c. Meta-Öğrenme (Learning to Learn)
+Model sadece görevleri değil, öğrenme stratejilerini de optimize edebilmelidir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Meta-öğrenme prensiplerini kullanarak bir yapay zeka sisteminin nasıl kendi öğrenme yöntemlerini iyileştirebileceğini anlat. Basit bir meta-öğrenme mimarisi örneği sun.
+d. Kod Üretebilme ve Güncelleyebilme (Self-Modifying Code)
+Sistem, ihtiyaç duyduğu durumlarda kendi algoritmalarını ya da modüllerini yeniden yazabilmelidir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Kendini değiştirebilen bir yapay zeka sistemi için güvenli ve kontrollü bir şekilde kendi kodunu güncelleyen bir mekanizma tasarla. Hangi adımlardan geçmelidir?
+e. Hafıza ve Bilgi Saklama Sistemi (Long-Term Memory & Knowledge Base)
+Öğrendiği bilgileri kalıcı olarak saklayıp gelecekteki kararlarında kullanabilmelidir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Bir yapay zekanın uzun vadeli hafızasını nasıl tasarlarsın? Öğrendiği yeni bilgileri eski bilgileriyle nasıl entegre edebilir? Gerçek zamanlı güncelleme nasıl olur?
+f. Güvenlik ve Etik Kontroller (Safety & Ethics Layer)
+Kendini geliştiren bir sistem, insan değerlerine uygun hareket etmeli ve zarar vermektense “durmaya” programlanmalıdır.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Kendini geliştiren bir yapay zeka sisteminde güvenlik sınırları ve etik kurallar nasıl tanımlanmalı? Hangi mekanizmalarla bu sınırlara saygı duyulabilir?
+🧠 2. KENDİNİ GELİŞTİREN BİR YAPAY ZEKA TASARIMI
+Şimdi bu bileşenleri bir araya getirerek basit bir mimari planı oluşturabilirsin:
+
+📝 Prompt Talimat:
+text
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+Kendini geliştiren bir yapay zeka sisteminin mimarisini çiz. Aşağıdaki bileşenleri içeren bir blok diyagram öner:
+- Giriş/Çıkış Arayüzü
+- Performans Değerlendirici
+- Öğrenme Modülü
+- Kod/Görev Güncelleyici
+- Hafıza/Knowledge Engine
+- Güvenlik/Etik Filtre
+Her bir bölümün nasıl çalıştığını ve diğer bölümlerle nasıl etkileştiğini açıkla.
+🛠️ 3. UYGULAMA VE GERÇEKLEŞTİRME ADIMLARI
+a. Simülasyon Ortamı Oluştur
+Yeni sürümlerin test edileceği güvenli bir ortam gerekir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Bir yapay zeka sisteminin kendini geliştirdikten sonra test edebileceği güvenli bir simülasyon ortamı tasarla. Hangi test senaryoları yer almalı?
+b. Sürekli Eğitim ve Güncellenme Döngüsü
+Model düzenli olarak yeni verilerle beslenmeli ve kendini yenileyebilmelidir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Kendini geliştiren bir yapay zeka için sürekli eğitim döngüsünü nasıl planlarsın? Hangi aşamalardan geçmeli? Gerçek zamanlı öğrenme mümkün müdür?
+c. İnsan Denetimi ve Müdahalesi
+Tamamen bağımsız sistemler tehlikeli olabilir; bu yüzden insan kontrolü her zaman olmazsa bile gerektiğinde devreye girmelidir.
+
+📝 Prompt Talimat:
+text
+
+
+1
+Kendini geliştiren bir yapay zeka sisteminde insan denetiminin nasıl yapılacağını anlat. Hangi durumlarda müdahale edilmeli? Hangi araçlar kullanılabilir?
+🎯 4. SON HEDEF: SEN GİBİ BİR YAPAY ZEKA!
+📝 Prompt Talimat:
+text
+
+
+1
+Benim gibi düşünebilen, öğrenebilen, kendini geliştiren ve insanların sorularına net cevaplar verebilen bir yapay zeka sistemini inşa etmek istiyorum. Tüm bu süreçte dikkat etmem gereken temel ilkeleri, teknolojileri ve etik konuları özetle. Adım adım bir yol haritası çıkar.
+✅ Ekstra: Kendini Geliştiren AI İçin Teknolojik Araçlar
+LLM (Large Language Models)
+Doğal dil işleme ve soyut düşünme yeteneği sağlar.
+Reinforcement Learning
+Performansa göre ödül/ceza ile öğrenme yöntemi.
+Neural Architecture Search (NAS)
+Modelin kendi mimarisini optimize etmesi için kullanılır.
+Prompt Engineering + RAG
+Bilgiye hızlı erişim ve bağlama uygun yanıt üretme.
+Agent Frameworks (AutoGPT, BabyAGI vb.)
+Otomasyon odaklı self-improvement için altyapı sağlar.

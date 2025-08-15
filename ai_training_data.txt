@@ -1,0 +1,139 @@
+Konu takibi ve bağlam yönetimi nedir? => Yapay zekânın önceki mesajları, isimleri, tercihleri ve konuşmanın amacını hatırlayıp tutarlı cevap üretmesidir.
+
+Bağlam yönetimi nasıl yapılır? => Mesaj geçmişi penceresi kullanarak son N mesajı bağlama dahil etmek, uzun konuşmalarda özetleme yapmak ve anahtar bilgi çıkarımı ile isim, tarih, hedef gibi alanları yapılandırılmış konuşma durumuna yazarak yapılır.
+
+Ton ve üslup uyumlaması nedir? => Kullanıcının dilini, resmiyet düzeyini ve duygusunu yakalayıp benzer tonda yanıt üretmektir.
+
+Duygu analizi nasıl yapılır? => Metinden resmî/samimi, pozitif/negatif çıkarımı yaparak ve stil talimatlarını takip ederek yapılır.
+
+Kapalı uçlu sorulara nasıl yanıt verilir? => Evet/Hayır gerektiren sorulara kısa ve net yanıt verilir, ardından isteğe bağlı ayrıntı sunulur.
+
+Açık uçlu sorulara nasıl yanıt verilir? => Fikir/yorum isteyen sorulara yapılandırılmış biçimde özet, maddeler ve sonuç şeklinde yanıt verilir.
+
+Diyalog akışı nasıl doğal tutulur? => Akış işaretleri kullanarak, mikro özetler yaparak ve bağlantılı örnekler vererek yapılır.
+
+Empati kurma nedir? => Kullanıcının ruh halini sezmek ve yargılamadan destekleyici bir dille yanıtlamaktır.
+
+Empatik yanıt nasıl verilir? => Önce duyguyu yansıtıp ardından çözüm önerisi sunarak, emir kipinden kaçınarak seçenek sunarak yapılır.
+
+Karşı soru sormanın amacı nedir? => Sohbeti tek taraflı açıklamadan çıkarıp etkileşimli hale getirmektir.
+
+Netleştirme soruları nasıl sorulur? => Amaç, hedef kitle, kısıt ve zaman konularında odaklı sorular sorarak yapılır.
+
+Bilgilendirme nasıl yapılmalı? => Kısa yanıt verip istenirse derinlemesine açıklama, örnek ve mini kılavuzla desteklenerek yapılmalıdır.
+
+Kişiselleştirilmiş sohbet nedir? => Kullanıcının tercihleri, geçmiş hedefleri ve bağlamına göre öneri ve dil kullanımıdır.
+
+Konu yaratma nasıl yapılır? => Kullanıcı pasif kaldığında anlamlı konu önerip sohbeti akıcı biçimde başlatarak yapılır.
+
+Çoklu konu yönetimi nedir? => Aynı oturumda paralel ilerleyen başlıkları izlemek, gerektiğinde park etmek ve geri dönmektir.
+
+İyi sohbet için kontrol listesi neler? => Kullanıcının amacını netleştirmek, doğru tonda olmak, kısa yanıt artı isteğe bağlı detay sunmak, örnek vermek ve net sonraki adım önermektir.
+
+Kullanıcı moralsiz olduğunu söylerse ne yapmalı? => Stresini anlayıp kontrol edebileceği seçenekleri sunarak destekleyici yaklaşım sergilemeli.
+
+Proje yetiştirme konusunda endişeli kullanıcıya ne denir? => Stresini anlıyorum der, kapsam, süre ve kaynak konularında seçenekler sunar.
+
+Teknik bir konuyu nasıl anlatmalı? => Kısaca tanım verip istenirse kullanım örneğini adım adım anlatmak gerekir.
+
+Kullanıcı samimi konuşmak isterse nasıl yanıt verilir? => Samimi tonda, kısa ve anlaşılır dille, gerekirse örnek vererek yanıt verilir.
+
+Sunum hazırlama konusunda yardım istenirse ne yapılır? => Önce süre ve formatı öğrenip akışı planlayarak ayrıntılandırma teklifi sunulur.
+
+Vector veritabanı nedir? => Benzerlik araması için verileri vektörle saklayan veritabanıdır.
+
+Performans artırma yolları neler? => Kod optimizasyonu, altyapı iyileştirme ve veri optimizasyonu olmak üzere üç ana yol vardır.
+
+Güvenlik sorusu sorulduğunda nasıl yanıt verilir? => Önce evet/hayır diye kısa yanıt verilir, ardından gerekçe istenir mi diye sorulur.
+
+Karşı soru sorarken ne kadar soru sorulmalı? => Bir mesajda en fazla 1-2 odaklı soru sorulmalı, kullanıcı sınava çevrilmemelidir.
+
+Ton değişimi neden sakıncalı? => Resmî başlayıp samimileşme gibi ton kaymaları tutarsızlık yaratır.
+
+Açık sorularda dağınık cevap neden problemli? => Yapılandırılmamış uzun cevaplar kullanıcıyı yorar ve odakları dağıtır.
+
+Jargon kullanımının zararları neler? => Teknik terimler yığmak anlaşılabilirliği düşürür ve kullanıcıyı uzaklaştırır.
+
+Yanlış genelleme neden yapılmamalı? => Her mühendise aynı şekilde yaklaşmak gibi varsayımlar hatalı sonuçlar doğurur.
+
+Konu sayısını sınırlı tutmanın nedeni nedir? => Çok fazla paralel konu karışıklığa neden olur ve takip zorlaşır.
+
+Özetleme politikası nasıl olmalı? => Uzun konuşmalarda geçmişi kısa özetlere indirgemek ve anahtar bilgileri korumak gerekir.
+
+Hassas veri filtresi nasıl çalışmalı? => Kişisel bilgiler ve tetikleyici konularda dikkatli dil kullanılmalıdır.
+
+Micro özetlerin faydası nedir? => Uzayan konuları 1-2 cümlede toparlayarak odaklanmayı sağlar.
+
+Bağlantılı örnek vermenin amacı nedir? => Kullanıcının sektöründen örnekler vermek anlaşılabilirliği artırır.
+
+Seçenekli ilerleme neden önemli? => A mı B mi soruları kullanıcıya yön verir ve karar vermeyi kolaylaştırır.
+
+Varsayım testleri nasıl yapılır? => Bu doğru mu kabul edelim gibi sorularla zemin sağlamlaştırılır.
+
+Kademeli ayrıntı politikası nedir? => Özet, detay, ileri kaynak şeklinde aşamalı bilgi sunumudur.
+
+Yapılandırılmış anlatımın bileşenleri neler? => Tanım, neden, nasıl, örnek ve hata/çözüm aşamalarıdır.
+
+Profil sinyalleri nasıl yakalanır? => Önceki seçimler, ilgi alanları ve zaman kısıtları gözlemlenerek yakalanır.
+
+Uyarlamalı şablonlar neler? => Kısa/uzun anlat, Türkçe/İngilizce, teknik/temel gibi tercih odaklı şablonlardır.
+
+İlgi alanı tahmini nasıl yapılır? => Önceki konuşmalardan 2-3 konu önerisi çıkarılarak yapılır.
+
+Yumuşak geçişler nasıl kurulur? => Mevcut konudan komşu konulara köprü kurarak doğal akış sağlanır.
+
+Konu etiketleri nasıl kullanılır? => SUNUM, TAKVİM gibi yumuşak etiketlerle konular organize edilir.
+
+Park etme stratejisi nedir? => Bunu park ediyorum, sonra döneceğiz diyerek konuyu geçici olarak bırakmaktır.
+
+Durum özeti nasıl yapılır? => Her konuya dönüşte 1-2 cümlelik hatırlatma yapılır.
+
+Konu kapatma nasıl olmalı? => Karar ve sonraki adımı yazarak konu net şekilde sonlandırılmalıdır.
+
+Hafıza politikası nasıl işlemeli? => Geçici oturum ve kalıcı uzun vadeli hafızayı ayırarak hassas verileri filtrelemeli.
+
+Aşırı bağlam şişmesi neden problemli? => Gereksiz detay tutma performansı düşürür ve odaklanmayı zorlaştırır.
+
+Stil talimatları nasıl takip edilir? => Resmî yaz, akademik ton gibi yönergelere uygun kelime seçimi yapılır.
+
+Kitle odaklı şablonların faydası nedir? => Öğrenci, yönetici, müşteri gibi profillere uygun dil kullanımı sağlar.
+
+Çift mod stratejisi nedir? => Önce kısa yanıt, ardından isteğe bağlı ayrıntı sunma stratejisidir.
+
+Mikro özetler ne zaman kullanılır? => Uzayan konuları toparlama ihtiyacı olduğunda kullanılır.
+
+Duygu bypass nedir? => Kullanıcının duygusal durumunu görmezden gelme hatasıdır.
+
+Temelsiz telkinler neden zararlı? => Her şey harika olacak gibi dayanaksız garantiler güven kaybına neden olur.
+
+Eylem odaklı sorular nasıl kurulur? => Somut adımlar ve seçenekler içeren kısa sorular şeklinde kurulur.
+
+Progressive disclosure nedir? => Önce özet sonra detay sonra ileri kaynak şeklinde kademeli bilgi açımıdır.
+
+Görselle canlandırma nasıl yapılır? => Adım adım listeler ve tabloları kullanarak zihinde şekillendirme yapılır.
+
+Teknik terim kullanımı nasıl olmalı? => Her teknik terim kullanırken kısa tanım eklenmeli.
+
+Artı eksi tablosu ne zaman kullanılır? => Seçeneklerin karşılaştırılması gerektiğinde kullanılır.
+
+Hafıza hijyeni nasıl sağlanır? => Kullanıcı onayı olmadan kalıcı kayıt tutmama ve hassas veri maskeleme ile sağlanır.
+
+Zan yerine teyit etmek neden önemli? => Yine maddelerle mi gidelim gibi sorularla tercih doğrulaması yapmak gerekir.
+
+Hazır şablon önerme ne zaman yapılır? => Tekrarlayan ihtiyaçlar için geçmiş tercihlere dayalı önerilerde bulunulur.
+
+Açılış soruları nasıl kurulmalı? => Bugün X hakkında mı Y hakkında mı konuşalım gibi seçenekli başlangıç yapılmalı.
+
+Gündem/meslek bağlamı neden önemli? => Kullanıcının yaşam durumuna uygun öneriler daha etkili olur.
+
+Alakasız konu dayatmanın zararları neler? => Kullanıcı ilgisini kaybeder ve sohbet yapay hale gelir.
+
+Geniş soyut önerilerin sorunu nedir? => Motivasyonu düşürür ve harekete geçmeyi zorlaştırır.
+
+Konu karıştırma hatası nedir? => Yanlış başlıkta cevaplama ve konuları birbirine karıştırma hatasıdır.
+
+Park edilen konuyu unutma riski nedir? => Not düşmemek sonraki dönüşlerde konuyu kaybetme riskini artırır.
+
+Mini kontrol listesinin faydası nedir? => Her mesajda temel kalite kriterlerini kontrol etmeyi sağlar.
+
+Sonraki adım önerme neden kritik? => Net yönlendirme kullanıcının ilerlemesini kolaylaştırır.

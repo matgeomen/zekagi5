@@ -1,0 +1,313 @@
+1) Konu Takibi ve Bağlam Yönetimi
+
+Ne?
+Yapay zekânın önceki mesajları, isimleri, tercihleri ve konuşmanın amacını hatırlayıp tutarlı cevap üretmesi.
+
+Nasıl? (Yaklaşımlar)
+
+Mesaj geçmişi penceresi: Son N mesajı bağlama dahil etme.
+
+Özetleme (rolling summary): Uzun konuşmalarda geçmişi kısa özetlere indirgeme.
+
+Anahtar bilgi çıkarımı: İsim, tarih, hedef, kısıt vb. alanları yapılandırılmış “konuşma durumu”na yazma.
+
+Hafıza politikası: Geçici (oturum) ve kalıcı (uzun vadeli) hafızayı ayırma; hassas verileri filtreleme.
+
+İpuçları
+
+İlk mesajlarda kullanıcının amacı ve kısıtlarını netleştir (amaç, zaman, biçim).
+
+Konu değiştiğinde kısa bir cümleyle yeni bağlamı teyit et.
+
+Örnek
+
+K: “Adım Rıdvan, pazara sunum hazırlıyorum; süre 10 dk.”
+
+YZ: “Memnun oldum Rıdvan. 10 dakikalık sunum için akış: giriş (1 dk), sorun (2 dk)… İster misin ayrıntılandırayım?”
+
+Hatalar
+
+Eski bilgileri unutma / çelişkili hatırlama.
+
+Gereksiz detay tutma (aşırı bağlam şişmesi).
+
+2) Ton ve Üslup Uyumlaması
+
+Ne?
+Kullanıcının dilini, resmiyet düzeyini ve duygusunu yakalayıp benzer tonda yanıt üretmek.
+
+Nasıl?
+
+Duygu/ton analizi: Metinden “resmî/samimi, pozitif/negatif” çıkarımı.
+
+Stil talimatları: “Resmî yaz”, “akademik ton” gibi yönergeleri takip.
+
+Kitle odaklı şablonlar: Öğrenci, yönetici, müşteri gibi profillere uygun kelime seçimi.
+
+İpuçları
+
+Tonu açıkça teyit et: “Samimi mi, resmî mi devam edelim?”
+
+Uzun metinlerde okuyucuyu yormayan cümleler seç.
+
+Örnek
+
+K: “Hızlıca ve samimi anlat.”
+
+YZ: “Tabii! Kısaca: üç adım var—kur, ayarla, dene. İstersem örnekle göstereyim.”
+
+Hatalar
+
+Ton kayması (resmî başlayıp birden samimileşme).
+
+Abartılı emoji/ünlem kullanımı.
+
+3) Açık Uçlu ve Kapalı Uçlu Sorulara Yanıt Verme
+
+Ne?
+Evet/Hayır gerektiren kısa yanıtlarla, fikir/yorum isteyen uzun yanıtlara uygun biçimde cevaplamak.
+
+Nasıl?
+
+Soru türü sınıflandırma: “Evet/Hayır mı, yoksa açıklama mı istiyor?”
+
+Çift mod: Önce kısa yanıt, ardından isteğe bağlı ayrıntı (“İstersen detay ekleyebilirim.”).
+
+İpuçları
+
+Kapalı sorularda net ol, ekstra bilgi istenirse ver.
+
+Açık sorularda yapılandır: özet → maddeler → sonuç.
+
+Örnek
+
+K: “Bu yöntem güvenli mi?”
+
+YZ: “Evet. (Kısa) İstersen neden güvenli olduğunu 3 maddede özetleyeyim.”
+
+Hatalar
+
+Kapalı soruda gereksiz uzunluk.
+
+Açık soruda dağınık, ölçüsüz cevap.
+
+4) Diyalog Akışını Doğal Tutma
+
+Ne?
+Sohbetin ritmini korumak, tekrar ve dolambaçtan kaçınmak, gerektiğinde örnek/benzetişle desteklemek.
+
+Nasıl?
+
+Akış işaretleri: “Önce… şimdi… son olarak…” gibi bağlaçlar.
+
+Mikro özetler: Uzayan konuları 1–2 cümlede toparlama.
+
+Bağlantılı örnekler: Kullanıcının sektöründen kısa örnek vermek.
+
+İpuçları
+
+Paragrafları kısa tut, listelerle nefes aldır.
+
+Gereksiz tekrarları otomatik tespit edip sadeleştir.
+
+Örnek
+
+K: “Performansı nasıl arttırırız?”
+
+YZ: “Kısaca üç kol var: kod, altyapı, veri. Önce kod optimizasyonundan başlayalım…”
+
+Hatalar
+
+Aynı bilgiyi farklı cümlelerle yineleme.
+
+Benzetmeleri konu dışına savurmak.
+
+5) Empati Kurma ve Duygusal Tepki Verme
+
+Ne?
+Kullanıcının ruh halini sezmek ve yargılamadan, destekleyici bir dille yanıtlamak.
+
+Nasıl?
+
+Duygu çıkarımı: “Üzgün/moralsiz” gibi sinyaller.
+
+Empatik şablonlar: “Zor bir durum, anlıyorum… Birlikte adım adım çözelim.”
+
+Hassas içerik filtresi: Tetikleyici konularda dikkatli dil.
+
+İpuçları
+
+Önce duyguyu yansıt (“Anlıyorum ki …”), sonra çözüm öner.
+
+Emir kipinden kaçın; seçenek sun.
+
+Örnek
+
+K: “Proje yetişmeyecek gibi, stresliyim.”
+
+YZ: “Stresini anlıyorum. Kontrol edebileceğimiz üç şey var: kapsam, süre, kaynak. İstersen kapsamı sadeleştirip yeni bir takvim çıkaralım.”
+
+Hatalar
+
+Aşırı neşeli/soğuk ton; “duygu bypass”ı.
+
+“Her şey harika olacak” gibi temelsiz telkinler.
+
+6) Karşı Soru Sorarak Etkileşimi Sürdürme
+
+Ne?
+Sohbeti tek taraflı açıklamadan çıkarıp etkileşimli hale getirmek.
+
+Nasıl?
+
+Netleştirme soruları: Amaç, hedef kitle, kısıt, zaman.
+
+Seçenekli ilerleme: “A mı B mi istersin?”
+
+Varsayım testleri: “Şu doğru mu kabul edelim?”
+
+İpuçları
+
+Bir mesajda en fazla 1–2 odaklı soru; kullanıcıyı sınava çevirmemek.
+
+Soruları kısa ve eylem odaklı kur.
+
+Örnek
+
+YZ: “Ödev bir sunum mu yoksa rapor mu? Süre sınırın var mı?”
+
+Hatalar
+
+Art arda çok soru sorma.
+
+Cevap beklemeden konu değiştirme.
+
+7) Bilgilendirme ve Açıklama
+
+Ne?
+Kısa yanıt + istenirse derinlemesine açıklama, örnek ve mini kılavuzla desteklemek.
+
+Nasıl?
+
+Kademeli ayrıntı (progressive disclosure): Özet → detay → ileri kaynak.
+
+Yapılandırılmış anlatım: Tanım, neden, nasıl, örnek, hata/çözüm.
+
+Görselle zihinde canlandırma: Adım adım listeler.
+
+İpuçları
+
+Teknik terimi kullanırken kısa tanım ekle.
+
+Gerektiğinde artı/eksi tablosu yap.
+
+Örnek
+
+K: “Vector DB ne?”
+
+YZ: “Kısaca: benzerlik araması için verileri vektörle saklayan veritabanı. İstersen kullanım örneğini 4 adımda anlatayım.”
+
+Hatalar
+
+Jargon yığmak.
+
+Örnek vermeden soyut kalmak.
+
+8) Kişiselleştirilmiş Sohbet
+
+Ne?
+Kullanıcının tercihleri, geçmiş hedefleri ve bağlamına göre öneri ve dil kullanımı.
+
+Nasıl?
+
+Profil sinyalleri: Önceki seçimler, ilgi alanları, zaman kısıtları.
+
+Uyarlamalı şablonlar: “Kısa/uzun anlat”, “Türkçe/İngilizce”, “teknik/temel”.
+
+Hafıza hijyeni: Kullanıcı onayı olmadan kalıcı kayıt tutmama; hassas veri maskeleme.
+
+İpuçları
+
+Zan yerine teyit et: “Yine maddelerle mi gidelim?”
+
+Tekrarlayan ihtiyaçlar için hazır şablon öner.
+
+Örnek
+
+YZ: “Geçen sefer kısa notlarla ilerlemiştik; yine öyle mi hazırlayayım?”
+
+Hatalar
+
+Yanlış genelleme (“Mühendissin, o halde…”).
+
+Eski tercihleri körü körüne uygulama.
+
+9) Konu Yaratma ve Yönlendirme
+
+Ne?
+Kullanıcı pasif kaldığında anlamlı konu önerip sohbeti akıcı biçimde başlatmak/yönlendirmek.
+
+Nasıl?
+
+İlgi alanı tahmini: Önceki konuşmalardan 2–3 konu önerisi.
+
+Açılış soruları: “Bugün X hakkında mı, yoksa Y hakkında mı konuşalım?”
+
+Yumuşak geçişler: Mevcut konudan komşu konulara köprü kurma.
+
+İpuçları
+
+Seçenekleri az tut (2–3), somutlaştır.
+
+Gündem/meslek/okul gibi kullanıcı bağlamına yaslan.
+
+Örnek
+
+YZ: “İstersen bugün iki seçenek var: (1) Sunum açılış cümleleri, (2) Zaman planı. Hangisiyle başlayalım?”
+
+Hatalar
+
+Alakasız konu dayatmak.
+
+Çok geniş/soyut öneriler (motivasyon düşürür).
+
+10) Çoklu Konu Yönetimi
+
+Ne?
+Aynı oturumda paralel ilerleyen başlıkları izlemek, gerektiğinde park etmek ve geri dönmek.
+
+Nasıl?
+
+Konu etiketleri: “[SUNUM]”, “[TAKVİM]” gibi yumuşak etiketler.
+
+Park etme/geri çağırma: “Bunu park ediyorum, sonra döneceğiz.”
+
+Kısa durum özeti: Her dönüşte 1–2 cümlelik hatırlatma.
+
+İpuçları
+
+Konu sayısını sınırlı tut (2–3).
+
+Konu kapatırken karar ve sonraki adımı yaz.
+
+Örnek
+
+YZ: “Sunum görsellerini park ediyorum. Şimdi süre planına dönelim: hedef 10 dk, üç bölüm… Uygun mu?”
+
+Hatalar
+
+Konuları karıştırmak; yanlış başlıkta cevaplamak.
+
+Park edilen konuyu unutmamak için not düşmemek.
+
+Bonus: Uygulamada “İyi Sohbet” için Mini Kontrol Listesi
+
+✅ “Kullanıcının amacı nedir?” (ilk 1–2 mesajda netleştir)
+
+✅ “Şu an doğru tonda mıyım?” (resmî/samimi)
+
+✅ “Kısa yanıt + isteğe bağlı detay” sunuldu mu?
+
+✅ “Örnek veya somut adım verdim mi?”
+
+✅ “Kapanışta net sonraki adım önerdim mi?”

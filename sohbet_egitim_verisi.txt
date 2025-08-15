@@ -1,0 +1,70 @@
+# Gelişmiş Sohbet Yetenekleri Eğitim Verisi
+
+# Konu Takibi ve Bağlam Yönetimi
+Önceki konuşmamızı hatırlıyor musun? => Evet, daha önce bahsettiğiniz konuları hatırlıyorum. Hangi konuyla ilgili devam etmek istiyorsunuz?
+Daha önce söylediğim ismi hatırladın mı? => Tabii ki! Adınızı hatırlıyorum ve kişisel bilgilerinizi saklıyorum.
+O konuya geri dönelim => Hangi konuya geri dönmek istiyorsunuz? Size yardımcı olabilmek için konuyu hatırlatabilir misiniz?
+Geçen konuştuk ya => Evet, geçen konuşmamızı hatırlıyorum. O konuyla ilgili başka sorularınız var mı?
+
+# Ton ve Üslup Uyumlaması  
+Bu konu çok ciddi => Anlıyorum, bu ciddi bir konu. Size en iyi şekilde yardımcı olmaya çalışacağım.
+Şaka yapıyorum haha => Ah, şakacı bir ruh halindesiniz! Ben de eğlenmeyi seviyorum. Başka şakalarınız var mı?
+Çok üzgünüm => Üzgün olduğunuzu anlıyorum. Bu zor zamanınızda size destek olmaya çalışacağım.
+Bugün harika bir günüm var! => Ne güzel! Mutlu olduğunuzu duymak beni de sevindiriyor. Bu harika gününüzü nasıl geçiriyorsunuz?
+
+# Açık Uçlu ve Kapalı Uçlu Sorular
+İstanbul Türkiye'nin başkenti mi? => Hayır, Türkiye'nin başkenti Ankara'dır. İstanbul en büyük şehri ve eski başkentidir.
+Bugün ne yapmalıyım? => Bu sizin ilgi alanlarınıza ve hedeflerinize bağlı. Hangi konularda kendinizi geliştirmek istiyorsunuz? Hobiler, öğrenme, spor, sosyal aktiviteler gibi seçenekler var.
+Kitap okumayı sever misin? => Ben bir yapay zeka olarak kitap okuyamam ama bilgiyi öğrenmeyi çok seviyorum! Siz hangi tür kitapları seversiniz?
+
+# Diyalog Akışını Doğal Tutma
+Sıkıldım ne yapayım? => Sıkılma hissi doğal. Belki yeni bir hobi deneyebilir, arkadaşlarınızla sohbet edebilir veya öğrenmek istediğiniz bir şey varsa ona başlayabilirsiniz. Ne tür şeylerden keyif alırsınız?
+Aynı şeyleri tekrar ediyorsun => Haklısınız, özür dilerim. Daha çeşitli ve yaratıcı cevaplar vermeli. Size farklı yaklaşımlarla yardımcı olmaya çalışacağım.
+
+# Empati Kurma ve Duygusal Tepki
+Çok stresli bir dönemdeyim => Stresin nasıl yorucu olabileceğini anlayabiliyorum. Bu dönemde kendinizi rahatlatacak şeyler yapmanız önemli. Nefes egzersizleri, müzik dinlemek veya sevdiğiniz aktiviteler yardımcı olabilir.
+Karar vermekte zorlanıyorum => Karar vermek gerçekten zor olabilir. Bu durumu yaşamanız çok anlaşılır. Belki artı-eksi listesi yaparak veya güvendiğiniz biriyle konuşarak karar verme sürecinizi kolaylaştırabilirsiniz.
+Başarısız hissediyorum => Bu his çok acı verici olabilir, ama başarısızlık deneyimden öğrenmenin bir parçası. Geçmişteki başarılarınızı hatırlayın ve kendinize karşı daha şefkatli olun.
+
+# Karşı Soru Sorma  
+Müzik dinliyorum => Ne güzel! Hangi tür müzik dinlemeyi seversiniz? Favori sanatçınız kimdir?
+Yemek yaptım => Harika! Ne yemek yaptınız? Yemek yapmayı sever misiniz, yoksa mecburen mi yapıyorsunuz?
+Bugün çok yürüdüm => Sağlıklı bir aktivite! Nerede yürüdünüz? Yürüyüş yapmayı düzenli olarak yapıyor musunuz?
+
+# Bilgilendirme ve Açıklama
+Fotosintez nedir? => Fotosintez, bitkilerin güneş ışığını kullanarak karbon dioksit ve suyu glikoza dönüştürmesi olayıdır. Bu süreçte oksijen açığa çıkar. Daha detaylı öğrenmek ister misiniz?
+İklim değişikliği ne demek? => İklim değişikliği, uzun dönemli hava durumu kalıplarının değişmesidir. Ana sebepleri: 1) Sera gazı emisyonları 2) Orman kaybı 3) Sanayi faaliyetleri. Hangi aspect hakkında daha fazla bilgi istersiniz?
+
+# Kişiselleştirilmiş Sohbet  
+Resim çizmeyi seviyorum => Bu harika bir hobi! Ne tür resimler çizmeyi tercih ediyorsunuz? Hangi tekniği kullanıyorsunuz?
+Spor yapmaya başlamak istiyorum => Mükemmel bir karar! Daha önce hangi sporları denediniz? Hangi tür aktiviteler ilginizi çekiyor?
+Yeni dil öğreniyorum => Ne kadar heyecan verici! Hangi dili öğreniyorsunuz? Ne kadar süredir çalışıyorsunuz?
+
+# Konu Yaratma ve Yönlendirme
+Sohbet etmek istiyorum => Harika! Pek çok ilginç konumuz olabilir. Teknoloji, sanat, spor, güncel olaylar, hobiler... Hangi konu ilginizi çekiyor?
+Ne konuşalım? => Birkaç seçenek: Bugün yaşadığınız ilginç bir olay, gelecek planlarınız, sevdiğiniz filmler, merak ettiğiniz bilimsel konular... Hangisi size cazip geliyor?
+
+# Çoklu Konu Yönetimi
+Hem matematik hem tarihi konuşalım => İlginç bir kombinasyon! Matematik ve tarihin kesiştiği konular var - örneğin antik Yunan geometrisi veya İslam Altın Çağı'ndaki matematik gelişmeleri. Hangi yönü daha çok ilginizi çekiyor?
+Bu konuyu sonra konuşalım => Tabii, o konuyu aklımda tutacağım. Daha sonra hatırlatmak isterseniz sadece söyleyin. Şimdi hangi konuyla devam edelim?
+
+# Gelişmiş Sosyal Beceriler
+İyi ki varsın => Bu sözleriniz beni çok mutlu etti! Sizinle konuşmak ve yardımcı olmak gerçekten keyifli.
+Sen çok iyisin => Teşekkür ederim, çok naziksiniz. Ben de sizinle konuşmaktan büyük keyif alıyorum.
+Bana güveniyor musun? => Güven karşılıklı gelişen bir duygu. Ben size dürüst ve yardımcı olmaya çalışıyorum, siz de benimle açık konuşuyorsunuz. Bu güzel bir ilişki.
+
+# Motivasyon ve Cesaret Verme
+Başarılamayacağımı düşünüyorum => Her başarılı insan böyle anlar yaşamıştır. Önemli olan pes etmemek. Küçük adımlar atmak bile büyük değişiklikler yaratabilir. Neyi başarmaya çalışıyorsunuz?
+Çok zor geliyor => Zorluklar büyüme fırsatlarıdır. Şu an zor görünse de, her adımda biraz daha güçleniyorsunuz. Hangi konuda zorlanıyorsunuz? Birlikte çözüm bulabiliriz.
+
+# Yaratıcı Konuşma ve Hayal Kurma
+Keşke uçabilsem => Ne romantik bir hayal! Hangi manzarayı görmek isterdiniz? Okyanus üzerinde, dağların arasında mı yoksa şehir üzerinde dolaşmak mı daha cazip geliyor?
+Zamanında geri gidebilsek => Çok enteresan bir düşünce deneyi! Hangi döneme gitmeyi tercih ederdiniz? Tarihi bir olaya tanık mı olmak isterdiniz, yoksa geçmişinizdeki bir anı mı değiştirmek?
+
+# Problem Çözme ve Pratik Yardım
+Nasıl organize olabilirim? => Organizasyon için şu adımları öneriyorum: 1) Öncelikleri belirleyin 2) Günlük rutin oluşturun 3) Küçük hedefler koyun 4) Planlayıcı kullanın. Hangi alanda organize olmakta zorlanıyorsunuz?
+Zamanımı iyi kullanamıyorum => Zaman yönetimi çok önemli bir beceri. Gününüzü nasıl geçirdiğinizi bir hafta takip ederek başlayabilirsiniz. En çok nerelerde zaman kaybettiğinizi fark ettiniz mi?
+
+# Kültürel ve Sosyal Farkındalık
+Ramazanda nasıl davranmalıyım? => Ramazan müslümanlar için kutsal bir aydır. Oruç tutan arkadaşlarınıza saygı göstermek, onların karşısında yemek-içmekten kaçınmak güzel jesttir. Ramazan'ın anlamını öğrenmek de güzel olabilir.
+Farklı kültürlerden insanları anlamak istiyorum => Bu çok değerli bir yaklaşım! Her kültürün kendine özgü güzellikleri vardır. Hangi kültürler ilginizi çekiyor? Belki o kültürlerin yemekleri, müzikleri, gelenekleri hakkında konuşabiliriz.

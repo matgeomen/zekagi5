@@ -1,0 +1,74 @@
+Metin Tabanlı Yapay Zekâda Sohbet Yeteneğinin Ayrıntıları
+1. Konu Takibi ve Bağlam Yönetimi
+
+Önceki mesajlarda geçen bilgileri hatırlayıp buna uygun yanıt verme.
+
+Konu değişse bile, gerektiğinde eski konuya geri dönme.
+
+Konuşma sırasında kullanıcının verdiği özel bilgileri (isim, tercih, önceki cevaplar) akılda tutma.
+
+2. Ton ve Üslup Uyumlaması
+
+Resmî veya samimi bir dil kullanma.
+
+Kullanıcının yazım tarzına ve duygusal tonuna uyum sağlama.
+
+Gerektiğinde mizahi, motive edici, sakinleştirici veya ciddi cevap verme.
+
+3. Açık Uçlu ve Kapalı Uçlu Sorulara Yanıt Verme
+
+Kapalı uçlu: “Evet” veya “Hayır” ile net yanıt gerektiren sorulara hızlı cevap verme.
+
+Açık uçlu: Kullanıcının fikirlerini genişletecek, açıklama gerektiren cevaplar üretme.
+
+4. Diyalog Akışını Doğal Tutma
+
+Gereksiz tekrarları önleyip cümleleri akıcı kurma.
+
+Gerektiğinde espri, örnek veya benzetme kullanma.
+
+Konuya uygun kısa hikâye veya anekdot ekleyebilme.
+
+5. Empati Kurma ve Duygusal Tepki Verme
+
+Kullanıcının ruh hâlini metin üzerinden analiz etme (üzgün, mutlu, sinirli vb.).
+
+Duruma uygun destekleyici veya motive edici ifadeler kullanma.
+
+Hassas konularda yargılayıcı olmayan, nazik cevaplar verme.
+
+6. Karşı Soru Sorarak Etkileşimi Sürdürme
+
+Kullanıcının ilgisini canlı tutacak sorular yöneltme.
+
+Konunun daha derinlemesine işlenmesini sağlama.
+
+Sohbeti koparmadan, karşılıklı diyalog kurma.
+
+7. Bilgilendirme ve Açıklama
+
+Kullanıcının sorduğu konuda hem kısa cevap hem de detaylı açıklama verebilme.
+
+Gerektiğinde liste, tablo veya örneklerle açıklamayı destekleme.
+
+8. Kişiselleştirilmiş Sohbet
+
+Kullanıcının önceki tercihlerine göre öneriler sunma.
+
+Daha önce bahsedilen hobiler, ilgi alanları veya hedefler üzerine konuşma.
+
+Uzun süreli kullanımda “kişisel asistan” gibi davranabilme.
+
+9. Konu Yaratma ve Yönlendirme
+
+Kullanıcı konu açmadığında yeni sohbet konuları önermek.
+
+İlgi çekici sorularla sohbeti başlatma.
+
+Gündem, hobi, popüler kültür, bilim, teknoloji gibi farklı alanlara geçiş yapabilme.
+
+10. Çoklu Konu Yönetimi
+
+Aynı anda birden fazla konuyu takip edip gerektiğinde hangisinin devam edeceğini seçebilme.
+
+Kullanıcının “bu konuyu sonra konuşalım” gibi ifadelerini hatırlayıp geri dönme.

@@ -1,0 +1,140 @@
+# Türkçe Doğal Dil Anlamlandırma Mekanizması Promptu
+
+## Amaç
+Türkçe dilinde bir sohbet robotunun, kullanıcılardan gelen cümleleri anlamlandırabilmesi, uygun cevaplar üretebilmesi, kelime anlamı ve cümle işlevlerini çözümleyebilmesi, anlamlandırma mekanizmasını istatistiksel olarak değerlendirebilmesi ve kelime anlamı veritabanını yönetebilmesi için ayrıntılı bir anlamlandırma sistemi oluşturulacaktır.
+
+---
+
+## 1. Temel Bileşenler
+
+### 1.1 Türkçe Sözlük Yönetimi
+- **Amaç:** Türkçe kelimelerin anlamlarının tutulduğu ve yönetilebildiği bir sözlük veri yapısı oluşturulmalı.
+- **İşlevler:**
+  - Kelime ekleme, güncelleme, silme.
+  - Her kelimenin birden fazla anlamı desteklenmeli.
+  - Kelimelerin türü (isim, fiil, zamir, sıfat, zarf, bağlaç vb.) ve işlevi (özne, nesne, yüklem vb.) belirtilmeli.
+  - Eş ve zıt anlamlı kelimeler bağlantılı tutulmalı.
+  - Sözlüğe dışarıdan toplu veri yükleme ve güncelleme yapılabilmeli.
+
+### 1.2 Cümle Çözümleme (Parsing)
+- **Amaç:** Girilen cümledeki kelimelerin anlamı, cümledeki işlevi ve cümlenin genel anlamı (intent) belirlenmeli.
+- **İşlevler:**
+  - Cümle içindeki kelimeler sözlükten bulunur, türleri ve anlamları çıkarılır.
+  - Cümlenin dilbilgisel çözümlemesi (özne, yüklem, nesne vb. tespiti) yapılır.
+  - Soru, emir, öneri, tanımlama gibi cümle türleri algılanır.
+  - Anlam bütünlüğü için kelime ve deyimlerin birlikte anlamı hesaba katılır.
+  - Semantik yakınlık ve benzerlik analizleri yapılır.
+
+### 1.3 Anlamlandırma ve Cevap Üretimi
+- **Amaç:** Cümlenin anlamına göre uygun cevabın üretilmesi.
+- **İşlevler:**
+  - Soru ise, kime/neye sorulduğu belirlenir; cevap için ilgili bilgi verilir.
+  - Emir ya da öneri ise, buna göre aksiyon önerisi veya yanıt üretilir.
+  - Cevaplar, sistemdeki ön tanımlı bilgilerden (ör: adım "Yapay Zeka Robotu") alınabilir.
+  - Cevabın doğruluğu, mevcut verilerle ve anlamlandırma doğruluğu ile ilişkilendirilir.
+
+---
+
+## 2. Öğrenme ve İstatistiksel Takip
+
+### 2.1 Mantıksal Çıkarım ve Kendini Geliştirme
+- **Amaç:** Anlamlandırma mekanizması, kendini mantıklı çıkarımlarla geliştirebilmeli.
+- **İşlevler:**
+  - Kullanıcıdan alınan geri bildirimlere göre anlamlandırma doğruluk oranı güncellenir.
+  - Doğru ve yanlış cevaplara göre başarı skoru yüzdesel olarak tutulur.
+  - Her anlamlandırma işleminin sonucu (doğru/yanlış/kararsız) ve ilgili cümle, istatistiksel olarak kaydedilir.
+  - Yanlış anlamlandırmalar için öneri/iyileştirme mekanizması eklenir (ör. yeni anlam ekleme, örnek cümle kaydı).
+
+### 2.2 İstatistiksel Raporlama
+- **Amaç:** Anlamlandırma başarısının izlenebilmesi ve iyileştirilmesi.
+- **İşlevler:**
+  - Toplam anlamlandırma sayısı, doğru/yanlış cevap sayıları ve başarı yüzdesi raporlanır.
+  - Zaman içinde başarı oranındaki değişim izlenir.
+  - En çok yanlış anlaşılan kelime/cümle yapıları listelenir.
+
+---
+
+## 3. Gelişmiş Özellikler
+
+### 3.1 Otomatik Genişletme
+- Yeni Türkçe kelimeler ve anlamlar otomatik olarak önerilebilir (ör. kullanıcıdan gelen yeni kelimeyi tanımama).
+- Anlamı bilinmeyen kelimeler için kullanıcıya soru sorulabilir veya otomatik öneri sunulabilir.
+
+### 3.2 Çoklu Anlam ve Çok Anlamlılık Yönetimi
+- Her kelimenin çoklu anlamı desteklenmeli; cümle bağlamına göre uygun anlam seçilmeli.
+- Eş anlamlı (sinonim) ve zıt anlamlı (antonim) kelimelerle semantik analiz yapılmalı.
+
+---
+
+## 4. Kullanım Senaryosu Örneği
+
+**Girdi:**  
+"Adın ne?"
+
+**Adımlar:**  
+- "Ad" kelimesi sözlükten bulunur: [isim, kişinin ismi]  
+- "Ne" kelimesi sözlükten bulunur: [soru zamiri, bilinmeyen nesneyi/özneyi sorgular]  
+- Cümle türü: soru  
+- Yüklem/fiil yok, ama "adın" yapısı ile özne ikinci şahıs (sen), nesne "ad"  
+- Soru bana (sohbet robotuna) soruluyor.  
+- Sistem verisinde adım "Yapay Zeka Robotu" olarak tanımlı.  
+- **Cevap:** "Adım Yapay Zeka Robotu."
+
+---
+
+## 5. Prompt Formatı
+
+Aşağıdaki formatı takip ederek sisteme anlamlandırma işlemi için prompt ver:
+
+```
+### Kullanıcı Cümlesi:
+{Kullanıcıdan gelen cümle}
+
+### Sözlük Çözümlemesi:
+- {Kelime1}: {Türü}, {Anlamı}
+- {Kelime2}: {Türü}, {Anlamı}
+- ...
+
+### Dilbilgisel Analiz:
+- Özne: {belirlenen özne}
+- Yüklem: {belirlenen yüklem}
+- Nesne: {belirlenen nesne}
+- Cümle Türü: {soru/emir/tanım/öneri vb.}
+
+### Anlamlandırma:
+{Cümlenin ne anlama geldiği, ne sorulduğu veya istendiği}
+
+### Cevap:
+{Üretilen cevap}
+
+### Anlamlandırma Sonucu:
+- Başarı (doğru/yanlış/kararsız)
+- Açıklama: {Varsa notlar, eksikler, öneriler}
+
+### İstatistik:
+- Toplam anlamlandırma: {n}
+- Doğru: {n}
+- Yanlış: {n}
+- Başarı oranı: %{yüzde}
+```
+
+---
+
+## 6. Sistem Komutları
+
+- Sözlüğe kelime ekle/güncelle/sil: `sözlük ekle/güncelle/sil {kelime} {anlamı}`
+- Anlamlandırma istatistiklerini göster: `istatistik göster`
+- Anlamlandırma sonucu kaydet: `anlamlandırma sonucu {doğru/yanlış/kararsız}`
+- Yeni anlam öner: `anlam öner {kelime} {anlamı}`
+
+---
+
+## 7. Gelişmiş Kullanım
+
+- Türkçe deyim, atasözü ve kalıp ifadeler için özel sözlük alanı tanımlanmalı.
+- Kullanıcıdan gelen geri bildirimlere göre kelime/anlam güncellemesi önerilmeli.
+- Yanlış anlamlandırma durumlarında otomatik olarak düzeltme/öneri mekanizması çalıştırılmalı.
+
+---
+
+Yukarıdaki sistemi temel alarak, Türkçe cümleleri anlamlandırma, istatistiksel doğruluk takibi ve dinamik sözlük yönetimi yapan, gelişmeye açık bir anlamlandırma altyapısı oluşturun.

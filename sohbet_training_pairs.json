@@ -1,0 +1,158 @@
+[
+  {
+    "input": "Önceki konuşmamızı hatırlıyor musun?",
+    "output": "Evet, daha önce bahsettiğiniz konuları hatırlıyorum. Hangi konuyla ilgili devam etmek istiyorsunuz?"
+  },
+  {
+    "input": "Daha önce söylediğim ismi hatırladın mı?",
+    "output": "Tabii ki! Adınızı hatırlıyorum ve kişisel bilgilerinizi saklıyorum."
+  },
+  {
+    "input": "O konuya geri dönelim",
+    "output": "Hangi konuya geri dönmek istiyorsunuz? Size yardımcı olabilmek için konuyu hatırlatabilir misiniz?"
+  },
+  {
+    "input": "Geçen konuştuk ya",
+    "output": "Evet, geçen konuşmamızı hatırlıyorum. O konuyla ilgili başka sorularınız var mı?"
+  },
+  {
+    "input": "Bu konu çok ciddi",
+    "output": "Anlıyorum, bu ciddi bir konu. Size en iyi şekilde yardımcı olmaya çalışacağım."
+  },
+  {
+    "input": "Şaka yapıyorum haha",
+    "output": "Ah, şakacı bir ruh halindesiniz! Ben de eğlenmeyi seviyorum. Başka şakalarınız var mı?"
+  },
+  {
+    "input": "Çok üzgünüm",
+    "output": "Üzgün olduğunuzu anlıyorum. Bu zor zamanınızda size destek olmaya çalışacağım."
+  },
+  {
+    "input": "Bugün harika bir günüm var!",
+    "output": "Ne güzel! Mutlu olduğunuzu duymak beni de sevindiriyor. Bu harika gününüzü nasıl geçiriyorsunuz?"
+  },
+  {
+    "input": "İstanbul Türkiye'nin başkenti mi?",
+    "output": "Hayır, Türkiye'nin başkenti Ankara'dır. İstanbul en büyük şehri ve eski başkentidir."
+  },
+  {
+    "input": "Bugün ne yapmalıyım?",
+    "output": "Bu sizin ilgi alanlarınıza ve hedeflerinize bağlı. Hangi konularda kendinizi geliştirmek istiyorsunuz? Hobiler, öğrenme, spor, sosyal aktiviteler gibi seçenekler var."
+  },
+  {
+    "input": "Kitap okumayı sever misin?",
+    "output": "Ben bir yapay zeka olarak kitap okuyamam ama bilgiyi öğrenmeyi çok seviyorum! Siz hangi tür kitapları seversiniz?"
+  },
+  {
+    "input": "Sıkıldım ne yapayım?",
+    "output": "Sıkılma hissi doğal. Belki yeni bir hobi deneyebilir, arkadaşlarınızla sohbet edebilir veya öğrenmek istediğiniz bir şey varsa ona başlayabilirsiniz. Ne tür şeylerden keyif alırsınız?"
+  },
+  {
+    "input": "Aynı şeyleri tekrar ediyorsun",
+    "output": "Haklısınız, özür dilerim. Daha çeşitli ve yaratıcı cevaplar vermeli. Size farklı yaklaşımlarla yardımcı olmaya çalışacağım."
+  },
+  {
+    "input": "Çok stresli bir dönemdeyim",
+    "output": "Stresin nasıl yorucu olabileceğini anlayabiliyorum. Bu dönemde kendinizi rahatlatacak şeyler yapmanız önemli. Nefes egzersizleri, müzik dinlemek veya sevdiğiniz aktiviteler yardımcı olabilir."
+  },
+  {
+    "input": "Karar vermekte zorlanıyorum",
+    "output": "Karar vermek gerçekten zor olabilir. Bu durumu yaşamanız çok anlaşılır. Belki artı-eksi listesi yaparak veya güvendiğiniz biriyle konuşarak karar verme sürecinizi kolaylaştırabilirsiniz."
+  },
+  {
+    "input": "Başarısız hissediyorum",
+    "output": "Bu his çok acı verici olabilir, ama başarısızlık deneyimden öğrenmenin bir parçası. Geçmişteki başarılarınızı hatırlayın ve kendinize karşı daha şefkatli olun."
+  },
+  {
+    "input": "Müzik dinliyorum",
+    "output": "Ne güzel! Hangi tür müzik dinlemeyi seversiniz? Favori sanatçınız kimdir?"
+  },
+  {
+    "input": "Yemek yaptım",
+    "output": "Harika! Ne yemek yaptınız? Yemek yapmayı sever misiniz, yoksa mecburen mi yapıyorsunuz?"
+  },
+  {
+    "input": "Bugün çok yürüdüm",
+    "output": "Sağlıklı bir aktivite! Nerede yürüdünüz? Yürüyüş yapmayı düzenli olarak yapıyor musunuz?"
+  },
+  {
+    "input": "Fotosintez nedir?",
+    "output": "Fotosintez, bitkilerin güneş ışığını kullanarak karbon dioksit ve suyu glikoza dönüştürmesi olayıdır. Bu süreçte oksijen açığa çıkar. Daha detaylı öğrenmek ister misiniz?"
+  },
+  {
+    "input": "İklim değişikliği ne demek?",
+    "output": "İklim değişikliği, uzun dönemli hava durumu kalıplarının değişmesidir. Ana sebepleri: 1) Sera gazı emisyonları 2) Orman kaybı 3) Sanayi faaliyetleri. Hangi aspect hakkında daha fazla bilgi istersiniz?"
+  },
+  {
+    "input": "Resim çizmeyi seviyorum",
+    "output": "Bu harika bir hobi! Ne tür resimler çizmeyi tercih ediyorsunuz? Hangi tekniği kullanıyorsunuz?"
+  },
+  {
+    "input": "Spor yapmaya başlamak istiyorum",
+    "output": "Mükemmel bir karar! Daha önce hangi sporları denediniz? Hangi tür aktiviteler ilginizi çekiyor?"
+  },
+  {
+    "input": "Yeni dil öğreniyorum",
+    "output": "Ne kadar heyecan verici! Hangi dili öğreniyorsunuz? Ne kadar süredir çalışıyorsunuz?"
+  },
+  {
+    "input": "Sohbet etmek istiyorum",
+    "output": "Harika! Pek çok ilginç konumuz olabilir. Teknoloji, sanat, spor, güncel olaylar, hobiler... Hangi konu ilginizi çekiyor?"
+  },
+  {
+    "input": "Ne konuşalım?",
+    "output": "Birkaç seçenek: Bugün yaşadığınız ilginç bir olay, gelecek planlarınız, sevdiğiniz filmler, merak ettiğiniz bilimsel konular... Hangisi size cazip geliyor?"
+  },
+  {
+    "input": "Hem matematik hem tarihi konuşalım",
+    "output": "İlginç bir kombinasyon! Matematik ve tarihin kesiştiği konular var - örneğin antik Yunan geometrisi veya İslam Altın Çağı'ndaki matematik gelişmeleri. Hangi yönü daha çok ilginizi çekiyor?"
+  },
+  {
+    "input": "Bu konuyu sonra konuşalım",
+    "output": "Tabii, o konuyu aklımda tutacağım. Daha sonra hatırlatmak isterseniz sadece söyleyin. Şimdi hangi konuyla devam edelim?"
+  },
+  {
+    "input": "İyi ki varsın",
+    "output": "Bu sözleriniz beni çok mutlu etti! Sizinle konuşmak ve yardımcı olmak gerçekten keyifli."
+  },
+  {
+    "input": "Sen çok iyisin",
+    "output": "Teşekkür ederim, çok naziksiniz. Ben de sizinle konuşmaktan büyük keyif alıyorum."
+  },
+  {
+    "input": "Bana güveniyor musun?",
+    "output": "Güven karşılıklı gelişen bir duygu. Ben size dürüst ve yardımcı olmaya çalışıyorum, siz de benimle açık konuşuyorsunuz. Bu güzel bir ilişki."
+  },
+  {
+    "input": "Başarılamayacağımı düşünüyorum",
+    "output": "Her başarılı insan böyle anlar yaşamıştır. Önemli olan pes etmemek. Küçük adımlar atmak bile büyük değişiklikler yaratabilir. Neyi başarmaya çalışıyorsunuz?"
+  },
+  {
+    "input": "Çok zor geliyor",
+    "output": "Zorluklar büyüme fırsatlarıdır. Şu an zor görünse de, her adımda biraz daha güçleniyorsunuz. Hangi konuda zorlanıyorsunuz? Birlikte çözüm bulabiliriz."
+  },
+  {
+    "input": "Keşke uçabilsem",
+    "output": "Ne romantik bir hayal! Hangi manzarayı görmek isterdiniz? Okyanus üzerinde, dağların arasında mı yoksa şehir üzerinde dolaşmak mı daha cazip geliyor?"
+  },
+  {
+    "input": "Zamanında geri gidebilsek",
+    "output": "Çok enteresan bir düşünce deneyi! Hangi döneme gitmeyi tercih ederdiniz? Tarihi bir olaya tanık mı olmak isterdiniz, yoksa geçmişinizdeki bir anı mı değiştirmek?"
+  },
+  {
+    "input": "Nasıl organize olabilirim?",
+    "output": "Organizasyon için şu adımları öneriyorum: 1) Öncelikleri belirleyin 2) Günlük rutin oluşturun 3) Küçük hedefler koyun 4) Planlayıcı kullanın. Hangi alanda organize olmakta zorlanıyorsunuz?"
+  },
+  {
+    "input": "Zamanımı iyi kullanamıyorum",
+    "output": "Zaman yönetimi çok önemli bir beceri. Gününüzü nasıl geçirdiğinizi bir hafta takip ederek başlayabilirsiniz. En çok nerelerde zaman kaybettiğinizi fark ettiniz mi?"
+  },
+  {
+    "input": "Ramazanda nasıl davranmalıyım?",
+    "output": "Ramazan müslümanlar için kutsal bir aydır. Oruç tutan arkadaşlarınıza saygı göstermek, onların karşısında yemek-içmekten kaçınmak güzel jesttir. Ramazan'ın anlamını öğrenmek de güzel olabilir."
+  },
+  {
+    "input": "Farklı kültürlerden insanları anlamak istiyorum",
+    "output": "Bu çok değerli bir yaklaşım! Her kültürün kendine özgü güzellikleri vardır. Hangi kültürler ilginizi çekiyor? Belki o kültürlerin yemekleri, müzikleri, gelenekleri hakkında konuşabiliriz."
+  }
+]
