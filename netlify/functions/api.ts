@@ -1,94 +1,91 @@
-import { Handler, HandlerEvent, HandlerContext } from '@netlify/functions';
+import { Handler } from '@netlify/functions';
+import serverless from 'serverless-http';
+import express from 'express';
+import { v4 as uuidv4 } from 'uuid';
 
-export const handler: Handler = async (event: HandlerEvent, context: HandlerContext) => {
-  // CORS headers
-  const headers = {
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Headers': 'Content-Type',
-    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
-  };
+const app = express();
+app.use(express.json());
 
-  // Handle preflight requests
-  if (event.httpMethod === 'OPTIONS') {
-    return {
-      statusCode: 200,
-      headers,
-      body: ''
-    };
+// CORS middleware
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+  } else {
+    next();
   }
+});
 
-  // Parse path to determine endpoint
-  const path = event.path.replace('/.netlify/functions/api', '');
-  
+// Basit arama endpoint'i
+app.post('/search', async (req, res) => {
   try {
-    if (path === '/search' && event.httpMethod === 'POST') {
-      const body = JSON.parse(event.body || '{}');
-      const { query } = body;
-      
-      if (!query) {
-        return {
-          statusCode: 400,
-          headers,
-          body: JSON.stringify({ success: false, error: 'Query is required' })
-        };
+    const { query } = req.body;
+    
+    // Mock arama sonuçları (gerçek bir projede burası dış API çağrısı olacak)
+    const mockResults = [
+      {
+        title: "Örnek Sonuç 1",
+        content: `${query} ile ilgili bilgiler bulundu.`,
+        url: "https://example.com/1",
+        relevance: 0.9,
+        timestamp: Date.now()
+      },
+      {
+        title: "Örnek Sonuç 2", 
+        content: `${query} hakkında detaylı açıklama.`,
+        url: "https://example.com/2",
+        relevance: 0.8,
+        timestamp: Date.now()
       }
+    ];
 
-      // Simüle edilmiş arama sonuçları
-      const mockResults = [
-        {
-          title: `${query} Hakkında`,
-          content: `${query} konusunda genel bilgiler bulunmaktadır. Bu konuda daha detaylı araştırma yapabilirsiniz.`,
-          url: `https://example.com/${encodeURIComponent(query)}`,
-          relevance: 0.85,
-          timestamp: Date.now()
-        },
-        {
-          title: `${query} - Detaylar`,
-          content: `${query} ile ilgili kapsamlı bilgiler ve açıklamalar mevcuttur.`,
-          url: `https://example.com/details/${encodeURIComponent(query)}`,
-          relevance: 0.75,
-          timestamp: Date.now()
-        }
-      ];
-
-      return {
-        statusCode: 200,
-        headers,
-        body: JSON.stringify({
-          success: true,
-          results: mockResults
-        })
-      };
-    }
-
-    if (path === '/health' && event.httpMethod === 'GET') {
-      return {
-        statusCode: 200,
-        headers,
-        body: JSON.stringify({ 
-          status: 'ok', 
-          timestamp: new Date().toISOString(),
-          environment: 'netlify'
-        })
-      };
-    }
-
-    // 404 for unknown paths
-    return {
-      statusCode: 404,
-      headers,
-      body: JSON.stringify({ error: 'Not found' })
-    };
-
+    res.json({
+      success: true,
+      results: mockResults
+    });
   } catch (error) {
-    console.error('API Error:', error);
-    return {
-      statusCode: 500,
-      headers,
-      body: JSON.stringify({
-        success: false,
-        error: 'Internal server error'
-      })
-    };
+    console.error('Arama hatası:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: 'Arama sırasında hata oluştu' 
+    });
   }
+});
+
+// Sohbet endpoint'i
+app.post('/chat', async (req, res) => {
+  try {
+    const { message } = req.body;
+    
+    // Basit yanıt oluşturucu (gerçek projede neural network burada olacak)
+    const responses = [
+      `"${message}" konusu hakkında bilgi verebilirim.`,
+      `${message} ile ilgili yardımcı olabilirim.`,
+      `Bu konuda size nasıl yardımcı olabilirim?`
+    ];
+    
+    const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+    
+    res.json({
+      success: true,
+      response: randomResponse,
+      confidence: 0.8
+    });
+  } catch (error) {
+    console.error('Sohbet hatası:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: 'Sohbet sırasında hata oluştu' 
+    });
+  }
+});
+
+// Serverless handler with proper typing
+const serverlessHandler = serverless(app);
+
+export const handler: Handler = async (event, context) => {
+  const result = await serverlessHandler(event, context);
+  return result;
 };
